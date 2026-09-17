@@ -1,0 +1,154 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/page_background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnBack"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/back"
+                android:padding="12dp"
+                android:src="@drawable/ic_arrow_back" />
+
+            <TextView
+                android:id="@+id/tvPageTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_weight="1"
+                android:text="@string/task_detail_title"
+                android:textColor="@color/text_primary"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            app:cardBackgroundColor="@color/surface_card"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="0dp"
+            app:strokeColor="@color/divider"
+            app:strokeWidth="1dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="18dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/task_title_label"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="13sp" />
+                <TextView
+                    android:id="@+id/tvTaskTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:textColor="@color/text_primary"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="22dp"
+                    android:text="@string/task_desc_label"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="13sp" />
+                <TextView
+                    android:id="@+id/tvTaskContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:minHeight="80dp"
+                    android:textColor="@color/text_primary"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tvCompletedStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:textColor="?attr/colorPrimary"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvPriority"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="?attr/colorPrimary"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvDeadline"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/text_primary"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tvCreatedAt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/text_primary"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnToggleCompleted"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="@string/mark_complete"
+            app:cornerRadius="10dp" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnEditTask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/edit_task"
+            app:cornerRadius="10dp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnTestReminder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/test_reminder"
+            app:cornerRadius="10dp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnDeleteTask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/delete_task"
+            android:textColor="@color/danger"
+            app:cornerRadius="10dp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+    </LinearLayout>
+</ScrollView>

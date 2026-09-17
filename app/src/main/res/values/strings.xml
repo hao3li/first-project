@@ -1,0 +1,178 @@
+<resources>
+    <string name="app_name">ActivityTest</string>
+
+    <!-- 底部导航 -->
+    <string name="nav_tasks">任务</string>
+    <string name="nav_completed">已完成</string>
+    <string name="nav_profile">我的</string>
+
+    <!-- 通用 -->
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="delete">删除</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="edit">编辑</string>
+    <string name="back">返回</string>
+
+    <!-- 任务列表页 -->
+    <string name="task_list_title">学习任务</string>
+    <string name="task_list_subtitle">规划每一步，稳步实现学习目标</string>
+    <string name="task_list_empty">还没有学习任务\n点击右下角开始规划</string>
+    <string name="add_task">新增任务</string>
+    <string name="search">搜索</string>
+    <string name="search_task">搜索任务</string>
+    <string name="search_completed_tasks">搜索已完成任务</string>
+    <string name="search_task_title_hint">请输入任务标题关键词</string>
+    <string name="search_task_title_invalid">请输入任务标题关键词</string>
+    <string name="search_task_not_found">未找到对应任务</string>
+
+    <!-- 已完成页 -->
+    <string name="completed_title">已完成</string>
+    <string name="completed_subtitle">回顾成果，保持前进</string>
+    <string name="history_data">历史数据</string>
+    <string name="history_short">历史</string>
+    <string name="history_data_title">已删除任务</string>
+    <string name="history_data_empty">暂无已删除任务</string>
+    <string name="history_deleted_at">删除于：%1$s</string>
+    <string name="history_select">选择</string>
+    <string name="history_cancel_select">取消选择</string>
+    <string name="history_selected_count">已选 %1$d 项</string>
+    <string name="restore_selected">恢复（%1$d）</string>
+    <string name="history_restore">恢复</string>
+    <string name="history_select_all">全选</string>
+    <string name="history_select_item">选择该历史任务</string>
+    <string name="restore_history_title">恢复任务</string>
+    <string name="restore_history_confirm">是否要恢复任务？</string>
+    <string name="history_task_detail_title">已删除任务详情</string>
+
+    <!-- 个人中心页 -->
+    <string name="profile_title">个人中心</string>
+    <string name="learner_info">学习者信息</string>
+    <string name="nickname">昵称</string>
+    <string name="default_nickname">学习者</string>
+    <string name="save_nickname">保存昵称</string>
+    <string name="sync_task">同步任务</string>
+    <string name="welcome_message">你好，%1$s</string>
+    <string name="profile_avatar">个人头像</string>
+    <string name="profile_learning_message">坚持记录，让每一次学习都有收获</string>
+    <string name="syncing">正在同步……</string>
+    <string name="sync_completed">同步完成</string>
+    <string name="nickname_empty_error">昵称不能为空</string>
+    <string name="nickname_saved">昵称保存成功</string>
+    <string name="data_cleared">数据已清除</string>
+
+    <!-- 任务项 -->
+    <string name="edit_task">编辑任务</string>
+    <string name="delete_task">删除任务</string>
+
+    <!-- 任务详情页 -->
+    <string name="task_detail_title">任务详情</string>
+    <string name="task_title_label">任务标题</string>
+    <string name="task_desc_label">任务描述</string>
+    <string name="completed_status_label">完成状态</string>
+    <string name="completed_status_format">完成状态：%1$s</string>
+    <string name="priority_format">优先级：%1$s</string>
+    <string name="deadline_label">截止时间</string>
+    <string name="priority_label">优先级</string>
+    <string name="created_at_label">创建时间</string>
+    <string name="created_time_format">创建时间：%1$s</string>
+    <string name="mark_complete">标记完成</string>
+    <string name="mark_incomplete">标记未完成</string>
+    <string name="test_reminder">测试提醒</string>
+    <string name="completed">已完成</string>
+    <string name="not_completed">未完成</string>
+    <string name="no_task_description">暂无任务描述</string>
+    <string name="deadline_time_format">截止时间：%1$s</string>
+    <string name="no_deadline">未设置截止时间</string>
+
+    <!-- 任务编辑页 -->
+    <string name="add_task_title">新增任务</string>
+    <string name="edit_task_title">编辑任务</string>
+    <string name="task_title_hint">任务标题</string>
+    <string name="task_content_hint">任务内容</string>
+    <string name="select_deadline">选择截止时间</string>
+    <string name="task_completed">任务已完成</string>
+    <string name="priority_title">选择优先级</string>
+    <string name="priority_high">优先级：高</string>
+    <string name="priority_normal">优先级：普通</string>
+    <string name="priority_low">优先级：低</string>
+    <string name="priority_value_high">高</string>
+    <string name="priority_value_normal">普通</string>
+    <string name="priority_value_low">低</string>
+    <string name="task_meta">创建于 %1$s · %2$s</string>
+    <string name="save_task">保存任务</string>
+
+    <!-- 通知 -->
+    <string name="notification_channel_name">任务提醒</string>
+    <string name="notification_channel_desc">用于显示学习任务截止提醒</string>
+    <string name="task_reminder_title">学习任务提醒</string>
+    <string name="task_reminder_default_title">学习任务</string>
+
+    <!-- 对话框 / 提示 -->
+    <string name="complete_task_confirm">是否完成此任务？</string>
+    <string name="restore_task_confirm">是否恢复该项任务？</string>
+    <string name="delete_task_title">删除任务</string>
+    <string name="delete_task_confirm_message">确定删除“%1$s”吗？</string>
+    <string name="delete_task_confirm_detail">确定要删除任务“%1$s”吗？</string>
+    <string name="task_invalid_id">任务编号无效</string>
+    <string name="task_not_found">任务不存在或已被删除</string>
+    <string name="task_not_loaded">任务尚未加载完成</string>
+    <string name="title_required">请输入任务标题</string>
+    <string name="deadline_in_future">截止时间必须晚于当前时间</string>
+    <string name="task_added_success">任务添加成功</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus dui nec risus. Maecenas non sodales nisi. Aliquam eget libero aliquet, imperdiet nisl a, ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.</string>
+    <string name="task_updated_success">任务修改成功</string>
+    <string name="task_deleted">任务已删除</string>
+    <string name="marked_complete">已标记为完成</string>
+    <string name="marked_incomplete">已标记为未完成</string>
+    <string name="select_deadline_date">选择截止日期</string>
+    <string name="select_deadline_time">选择截止时间</string>
+    <string name="deadline_prefix">截止：%1$s</string>
+    <string name="notification_permission_denied">未授予通知权限，任务提醒可能无法显示</string>
+    <string name="test_reminder_sent">测试提醒已发送，请查看通知栏</string>
+    <string name="sync_finished">任务同步完成</string>
+
+    <!-- 三点式菜单 -->
+    <string name="menu_more">更多</string>
+    <string name="menu_sort">编辑排序</string>
+    <string name="menu_sync">同步任务</string>
+    <string name="menu_theme">主题</string>
+    <string name="menu_settings">设置</string>
+    <string name="menu_about">关于</string>
+
+    <!-- 排序方式 -->
+    <string name="sort_title">选择排序方式</string>
+    <string name="sort_by_deadline">按截止时间</string>
+    <string name="sort_by_created">按创建时间（最新优先）</string>
+    <string name="sort_by_priority">按优先级（高到低）</string>
+
+    <!-- 语言选择 -->
+    <string name="language_title">选择语言</string>
+    <string name="language_chinese">中文</string>
+    <string name="language_english">English</string>
+
+    <!-- 主题 -->
+    <string name="theme_title">选择主题颜色</string>
+    <string name="theme_navy">海军蓝</string>
+    <string name="theme_green">森林绿</string>
+    <string name="theme_purple">紫罗兰</string>
+    <string name="theme_pink">樱花粉</string>
+    <string name="theme_skyblue">天空蓝</string>
+    <string name="theme_yellow">小鸡黄</string>
+
+    <!-- 设置 -->
+    <string name="settings_title">设置</string>
+    <string name="settings_language">语言选择</string>
+    <string name="settings_clear_data">清除全部数据</string>
+    <string name="settings_clear_data_confirm">确定要清除全部任务数据吗？此操作不可恢复。</string>
+    <string name="settings_version">版本信息</string>
+
+    <!-- 关于 -->
+    <string name="about_title">关于</string>
+    <string name="about_message">学习任务管理器\n版本 1.0.0\n帮助您高效规划学习计划。</string>
+
+    <string name="current_version">当前版本：1.0.0</string>
+    <string name="content_description_delete_task">删除任务</string>
+
+</resources>

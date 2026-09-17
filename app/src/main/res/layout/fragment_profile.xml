@@ -1,0 +1,189 @@
+<com.example.activitytest.ui.widget.KeyboardDismissScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/page_background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvProfileTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/profile_title"
+                android:textColor="@color/text_primary"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                />
+
+            <ImageButton
+                android:id="@+id/btnMore"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/bg_more_button"
+                android:contentDescription="@string/menu_more"
+                android:padding="12dp"
+                android:src="@drawable/ic_more"
+                app:tint="@color/text_primary" />
+        </LinearLayout>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="@color/surface_card"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="0dp"
+            app:strokeColor="@color/divider"
+            app:strokeWidth="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="20dp">
+
+                <FrameLayout
+                    android:layout_width="88dp"
+                    android:layout_height="88dp"
+                    android:background="@drawable/bg_profile_avatar"
+                    android:contentDescription="@string/profile_avatar">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/ivProfileAvatar"
+                        android:layout_width="76dp"
+                        android:layout_height="76dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@string/profile_avatar"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/profile_avatar_hamster"
+                        app:shapeAppearanceOverlay="@style/ProfileAvatarCircle" />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvWelcome"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:textColor="?attr/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:text="@string/profile_learning_message"
+                        android:textColor="@color/text_secondary"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:cardBackgroundColor="@color/surface_card"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="0dp"
+            app:strokeColor="@color/divider"
+            app:strokeWidth="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/learner_info"
+                    android:textColor="@color/text_primary"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:hint="@string/nickname">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etNickname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLength="20"
+                        android:singleLine="true" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnSaveNickname"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="12dp"
+                    android:text="@string/save_nickname"
+                    app:cornerRadius="12dp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSync"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/sync_task"
+            app:cornerRadius="12dp" />
+
+        <ProgressBar
+            android:id="@+id/progressSync"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvSyncStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:textColor="@color/text_secondary" />
+
+        <TextView
+            android:id="@+id/tvVersion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/current_version"
+            android:textColor="@color/text_secondary"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+</com.example.activitytest.ui.widget.KeyboardDismissScrollView>

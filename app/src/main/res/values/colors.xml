@@ -1,0 +1,30 @@
+<resources>
+    <color name="brand_navy">#183B56</color>
+    <color name="brand_blue">#2F6B8A</color>
+    <color name="brand_blue_light">#DCEBF2</color>
+    <color name="brand_gold">#D6A756</color>
+    <color name="theme_green_primary">#2E7D5B</color>
+    <color name="theme_green_secondary">#8BC9A8</color>
+    <color name="theme_green_light">#D9F0E3</color>
+    <color name="theme_purple_primary">#6A4C93</color>
+    <color name="theme_purple_secondary">#B59BD6</color>
+    <color name="theme_purple_light">#E9DFF4</color>
+    <color name="theme_pink_primary">#E8829B</color>
+    <color name="theme_pink_secondary">#F4B9C8</color>
+    <color name="theme_pink_light">#FCE6EC</color>
+    <color name="theme_skyblue_primary">#3E9EE0</color>
+    <color name="theme_skyblue_secondary">#8FCBEE</color>
+    <color name="theme_skyblue_light">#E3F4FC</color>
+    <color name="theme_yellow_primary">#F0C239</color>
+    <color name="theme_yellow_secondary">#F7DC7A</color>
+    <color name="theme_yellow_light">#FDF4D6</color>
+    <color name="theme_yellow_on_primary">#4A3800</color>
+    <color name="page_background">#F5F7FA</color>
+    <color name="surface_card">#FFFFFFFF</color>
+    <color name="text_primary">#1E2933</color>
+    <color name="text_secondary">#6B7785</color>
+    <color name="divider">#E3E8ED</color>
+    <color name="danger">#B84C4C</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+</resources>

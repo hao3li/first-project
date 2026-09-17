@@ -1,0 +1,177 @@
+<resources>
+    <string name="app_name">ActivityTest</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_tasks">Tasks</string>
+    <string name="nav_completed">Completed</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Common -->
+    <string name="cancel">Cancel</string>
+    <string name="confirm">OK</string>
+    <string name="delete">Delete</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="edit">Edit</string>
+    <string name="back">Back</string>
+
+    <!-- Task list -->
+    <string name="task_list_title">Study Tasks</string>
+    <string name="task_list_subtitle">Plan every step to achieve your study goals</string>
+    <string name="task_list_empty">No study tasks yet\nTap the button below to start planning</string>
+    <string name="add_task">Add Task</string>
+    <string name="search">Search</string>
+    <string name="search_task">Search tasks</string>
+    <string name="search_completed_tasks">Search completed tasks</string>
+    <string name="search_task_title_hint">Enter task title keywords</string>
+    <string name="search_task_title_invalid">Enter task title keywords</string>
+    <string name="search_task_not_found">Task not found</string>
+
+    <!-- Completed -->
+    <string name="completed_title">Completed</string>
+    <string name="completed_subtitle">Review your progress and keep going</string>
+    <string name="history_data">History</string>
+    <string name="history_short">History</string>
+    <string name="history_data_title">Deleted Tasks</string>
+    <string name="history_data_empty">No deleted tasks</string>
+    <string name="history_deleted_at">Deleted: %1$s</string>
+    <string name="history_select">Select</string>
+    <string name="history_cancel_select">Cancel selection</string>
+    <string name="history_selected_count">%1$d selected</string>
+    <string name="restore_selected">Restore (%1$d)</string>
+    <string name="history_restore">Restore</string>
+    <string name="history_select_all">Select all</string>
+    <string name="history_select_item">Select this deleted task</string>
+    <string name="restore_history_title">Restore tasks</string>
+    <string name="restore_history_confirm">Restore selected tasks?</string>
+    <string name="history_task_detail_title">Deleted Task Details</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Profile</string>
+    <string name="learner_info">Learner Information</string>
+    <string name="nickname">Nickname</string>
+    <string name="default_nickname">Learner</string>
+    <string name="save_nickname">Save Nickname</string>
+    <string name="sync_task">Sync Tasks</string>
+    <string name="welcome_message">Hello, %1$s</string>
+    <string name="profile_avatar">Profile avatar</string>
+    <string name="profile_learning_message">Keep learning, one task at a time</string>
+    <string name="syncing">Syncing…</string>
+    <string name="sync_completed">Sync completed</string>
+    <string name="nickname_empty_error">Nickname cannot be empty</string>
+    <string name="nickname_saved">Nickname saved successfully</string>
+    <string name="data_cleared">Data cleared</string>
+
+    <!-- Task item -->
+    <string name="edit_task">Edit Task</string>
+    <string name="delete_task">Delete Task</string>
+
+    <!-- Task detail -->
+    <string name="task_detail_title">Task Details</string>
+    <string name="task_title_label">Title</string>
+    <string name="task_desc_label">Description</string>
+    <string name="completed_status_label">Status</string>
+    <string name="completed_status_format">Status: %1$s</string>
+    <string name="priority_format">Priority: %1$s</string>
+    <string name="deadline_label">Deadline</string>
+    <string name="priority_label">Priority</string>
+    <string name="created_at_label">Created</string>
+    <string name="created_time_format">Created: %1$s</string>
+    <string name="mark_complete">Mark Complete</string>
+    <string name="mark_incomplete">Mark Incomplete</string>
+    <string name="test_reminder">Test Reminder</string>
+    <string name="completed">Completed</string>
+    <string name="not_completed">Not Completed</string>
+    <string name="no_task_description">No description</string>
+    <string name="deadline_time_format">Deadline: %1$s</string>
+    <string name="no_deadline">No deadline set</string>
+
+    <!-- Task edit -->
+    <string name="add_task_title">Add Task</string>
+    <string name="edit_task_title">Edit Task</string>
+    <string name="task_title_hint">Task Title</string>
+    <string name="task_content_hint">Task Content</string>
+    <string name="select_deadline">Select Deadline</string>
+    <string name="task_completed">Task Completed</string>
+    <string name="priority_title">Choose priority</string>
+    <string name="priority_high">High</string>
+    <string name="priority_normal">Normal</string>
+    <string name="priority_low">Low</string>
+    <string name="priority_value_high">High</string>
+    <string name="priority_value_normal">Normal</string>
+    <string name="priority_value_low">Low</string>
+    <string name="task_meta">Created %1$s · %2$s</string>
+    <string name="save_task">Save Task</string>
+
+    <!-- Notification -->
+    <string name="notification_channel_name">Task Reminder</string>
+    <string name="notification_channel_desc">Used for study task deadline reminders</string>
+    <string name="task_reminder_title">Study Task Reminder</string>
+    <string name="task_reminder_default_title">Study Task</string>
+
+    <!-- Dialog / messages -->
+    <string name="complete_task_confirm">Mark this task as complete?</string>
+    <string name="restore_task_confirm">Restore this task?</string>
+    <string name="delete_task_title">Delete Task</string>
+    <string name="delete_task_confirm_message">Delete \"%1$s\"?</string>
+    <string name="delete_task_confirm_detail">Are you sure you want to delete \"%1$s\"?</string>
+    <string name="task_invalid_id">Invalid task ID</string>
+    <string name="task_not_found">Task not found or has been deleted</string>
+    <string name="task_not_loaded">Task has not loaded yet</string>
+    <string name="title_required">Please enter a task title</string>
+    <string name="deadline_in_future">Deadline must be later than now</string>
+    <string name="task_added_success">Task added</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus dui nec risus. Maecenas non sodales nisi. Aliquam eget libero aliquet, imperdiet nisl a, ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.</string>
+    <string name="task_updated_success">Task updated</string>
+    <string name="task_deleted">Task deleted</string>
+    <string name="marked_complete">Marked as complete</string>
+    <string name="marked_incomplete">Marked as incomplete</string>
+    <string name="select_deadline_date">Select date</string>
+    <string name="select_deadline_time">Select time</string>
+    <string name="deadline_prefix">Due: %1$s</string>
+    <string name="notification_permission_denied">Notification permission denied. Reminders may not show.</string>
+    <string name="test_reminder_sent">Test reminder sent. Check the notification bar.</string>
+    <string name="sync_finished">Tasks synced</string>
+
+    <!-- Overflow menu -->
+    <string name="menu_more">More</string>
+    <string name="menu_sort">Sort</string>
+    <string name="menu_sync">Sync</string>
+    <string name="menu_theme">Theme</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_about">About</string>
+
+    <!-- Sort -->
+    <string name="sort_title">Sort by</string>
+    <string name="sort_by_deadline">Deadline</string>
+    <string name="sort_by_created">Created time (newest first)</string>
+    <string name="sort_by_priority">Priority (high to low)</string>
+
+    <!-- Language -->
+    <string name="language_title">Choose language</string>
+    <string name="language_chinese">中文</string>
+    <string name="language_english">English</string>
+
+    <!-- Theme -->
+    <string name="theme_title">Choose theme color</string>
+    <string name="theme_navy">Navy blue</string>
+    <string name="theme_green">Forest green</string>
+    <string name="theme_purple">Violet</string>
+    <string name="theme_pink">Sakura pink</string>
+    <string name="theme_skyblue">Sky blue</string>
+    <string name="theme_yellow">Chick yellow</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_clear_data">Clear all data</string>
+    <string name="settings_clear_data_confirm">Are you sure you want to clear all task data? This cannot be undone.</string>
+    <string name="settings_version">Version</string>
+
+    <!-- About -->
+    <string name="about_title">About</string>
+    <string name="about_message">Study Task Manager\nVersion 1.0.0\nHelps you plan your study efficiently.</string>
+
+    <string name="current_version">Current version: 1.0.0</string>
+    <string name="content_description_delete_task">Delete task</string>
+</resources>

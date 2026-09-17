@@ -1,0 +1,16 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="?attr/appAccentLightColor" />
+        </shape>
+    </item>
+    <item
+        android:left="3dp"
+        android:top="3dp"
+        android:right="3dp"
+        android:bottom="3dp">
+        <shape android:shape="oval">
+            <solid android:color="@color/surface_card" />
+        </shape>
+    </item>
+</layer-list>

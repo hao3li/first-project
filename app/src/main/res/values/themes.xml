@@ -1,0 +1,68 @@
+<resources>
+    <style name="Theme.ActivityTest" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/brand_navy</item>
+        <item name="colorPrimaryVariant">@color/brand_navy</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/brand_gold</item>
+        <item name="colorSecondaryVariant">@color/brand_gold</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="appAccentColor">@color/brand_navy</item>
+        <item name="appAccentLightColor">@color/brand_blue_light</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/page_background</item>
+        <item name="android:navigationBarColor">@color/surface_card</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+
+    <style name="Theme.ActivityTest.Green" parent="Theme.ActivityTest">
+        <item name="colorPrimary">@color/theme_green_primary</item>
+        <item name="colorPrimaryVariant">@color/theme_green_primary</item>
+        <item name="colorSecondary">@color/theme_green_secondary</item>
+        <item name="colorSecondaryVariant">@color/theme_green_secondary</item>
+        <item name="appAccentColor">@color/theme_green_primary</item>
+        <item name="appAccentLightColor">@color/theme_green_light</item>
+    </style>
+
+    <style name="Theme.ActivityTest.Purple" parent="Theme.ActivityTest">
+        <item name="colorPrimary">@color/theme_purple_primary</item>
+        <item name="colorPrimaryVariant">@color/theme_purple_primary</item>
+        <item name="colorSecondary">@color/theme_purple_secondary</item>
+        <item name="colorSecondaryVariant">@color/theme_purple_secondary</item>
+        <item name="appAccentColor">@color/theme_purple_primary</item>
+        <item name="appAccentLightColor">@color/theme_purple_light</item>
+    </style>
+
+    <style name="Theme.ActivityTest.Pink" parent="Theme.ActivityTest">
+        <item name="colorPrimary">@color/theme_pink_primary</item>
+        <item name="colorPrimaryVariant">@color/theme_pink_primary</item>
+        <item name="colorSecondary">@color/theme_pink_secondary</item>
+        <item name="colorSecondaryVariant">@color/theme_pink_secondary</item>
+        <item name="appAccentColor">@color/theme_pink_primary</item>
+        <item name="appAccentLightColor">@color/theme_pink_light</item>
+    </style>
+
+    <style name="Theme.ActivityTest.SkyBlue" parent="Theme.ActivityTest">
+        <item name="colorPrimary">@color/theme_skyblue_primary</item>
+        <item name="colorPrimaryVariant">@color/theme_skyblue_primary</item>
+        <item name="colorSecondary">@color/theme_skyblue_secondary</item>
+        <item name="colorSecondaryVariant">@color/theme_skyblue_secondary</item>
+        <item name="appAccentColor">@color/theme_skyblue_primary</item>
+        <item name="appAccentLightColor">@color/theme_skyblue_light</item>
+    </style>
+
+    <style name="Theme.ActivityTest.Yellow" parent="Theme.ActivityTest">
+        <item name="colorPrimary">@color/theme_yellow_primary</item>
+        <item name="colorPrimaryVariant">@color/theme_yellow_primary</item>
+        <item name="colorOnPrimary">@color/theme_yellow_on_primary</item>
+        <item name="colorSecondary">@color/theme_yellow_secondary</item>
+        <item name="colorSecondaryVariant">@color/theme_yellow_secondary</item>
+        <item name="appAccentColor">@color/theme_yellow_primary</item>
+        <item name="appAccentLightColor">@color/theme_yellow_light</item>
+    </style>
+    <style name="ProfileAvatarCircle">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>

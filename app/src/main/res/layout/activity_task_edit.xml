@@ -1,0 +1,128 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/page_background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnBack"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/back"
+                android:padding="12dp"
+                android:src="@drawable/ic_arrow_back" />
+
+            <TextView
+                android:id="@+id/tvPageTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_weight="1"
+                android:textColor="@color/text_primary"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/titleInputLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:hint="@string/task_title_hint">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:maxLength="50"
+                android:maxLines="1" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:hint="@string/task_content_hint">
+
+
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etContent"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:gravity="top|start"
+                android:inputType="textMultiLine"
+                android:maxLines="5" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSelectDeadline"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="@string/select_deadline"
+            app:cornerRadius="10dp" />
+
+        <TextView
+            android:id="@+id/tvSelectedDeadline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/text_secondary"
+            android:textSize="15sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSelectPriority"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="18dp"
+            android:gravity="start|center_vertical"
+            android:text="@string/priority_normal"
+            app:cornerRadius="10dp" />
+
+        <CheckBox
+            android:id="@+id/checkCompleted"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:buttonTint="?attr/colorPrimary"
+            android:text="@string/task_completed"
+            android:textColor="@color/text_primary" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/save_task"
+            app:cornerRadius="10dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCancel"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cornerRadius="10dp"
+            android:text="@string/cancel" />
+    </LinearLayout>
+</ScrollView>

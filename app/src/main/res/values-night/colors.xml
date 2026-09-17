@@ -1,0 +1,33 @@
+<resources>
+    <color name="brand_navy">#A9C8D8</color>
+    <color name="brand_blue">#8DB8CC</color>
+    <color name="brand_blue_light">#294655</color>
+    <color name="brand_gold">#E0B86C</color>
+    <color name="page_background">#101820</color>
+    <color name="surface_card">#192630</color>
+    <color name="text_primary">#F1F5F7</color>
+    <color name="text_secondary">#AAB8C2</color>
+    <color name="divider">#30414C</color>
+    <color name="danger">#F09A9A</color>
+
+    <color name="theme_green_primary">#4FAE82</color>
+    <color name="theme_green_secondary">#A3D9BC</color>
+    <color name="theme_green_light">#1E3A2E</color>
+
+    <color name="theme_purple_primary">#9B7BC7</color>
+    <color name="theme_purple_secondary">#C6A8E0</color>
+    <color name="theme_purple_light">#2C2140</color>
+
+    <color name="theme_pink_primary">#F0A0B4</color>
+    <color name="theme_pink_secondary">#F7C9D6</color>
+    <color name="theme_pink_light">#3B2530</color>
+
+    <color name="theme_skyblue_primary">#6CC2F0</color>
+    <color name="theme_skyblue_secondary">#A9DBF5</color>
+    <color name="theme_skyblue_light">#1C3348</color>
+
+    <color name="theme_yellow_primary">#E0B23A</color>
+    <color name="theme_yellow_secondary">#EDD07A</color>
+    <color name="theme_yellow_light">#3A2E10</color>
+    <color name="theme_yellow_on_primary">#2E2200</color>
+</resources>

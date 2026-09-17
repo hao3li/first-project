@@ -1,0 +1,18 @@
+<resources>
+    <style name="Theme.ActivityTest" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/brand_navy</item>
+        <item name="colorPrimaryVariant">@color/brand_navy</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorSecondary">@color/brand_gold</item>
+        <item name="colorSecondaryVariant">@color/brand_gold</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="appAccentColor">@color/brand_navy</item>
+        <item name="appAccentLightColor">@color/brand_blue_light</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:statusBarColor">@color/page_background</item>
+        <item name="android:navigationBarColor">@color/surface_card</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+</resources>
