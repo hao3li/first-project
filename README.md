@@ -95,11 +95,7 @@ app/build/outputs/apk/debug/app-debug.apk
 
 首次启动会请求通知权限（用于任务提醒），建议允许以体验完整功能。
 
-## 功能截图
 
-| 任务列表 | 已完成 / 历史记录 | 个人中心 |
-|---|---|---|
-| ![任务列表](screenshots/01_task_list.png) | ![已完成](screenshots/02_completed.png) | ![个人中心](screenshots/03_profile.png) |
 
 ## 目录清单
 
